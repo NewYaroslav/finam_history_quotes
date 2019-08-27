@@ -1,5 +1,5 @@
 # finam_history_quotes
-История котировок брокера Финам (https://www.finam.ru/)[https://www.finam.ru/]
+История котировок брокера Финам [https://www.finam.ru/](https://www.finam.ru/)
 
 # Описание
 Источник котировок - MetaTrader4
