@@ -48,13 +48,13 @@
 
 ### Пример использования
 
-Преобразовать csv файл в qhs4 файл с использованием сжатия (флаг *-c*) и преобразованием времени из CET в GMT (флаг *-ohlc*):
+Преобразовать csv файл в qhs4 файл (флаг *-ohlc*) с использованием сжатия (флаг *-c*) и преобразованием времени из CET в GMT (флаг *-cetgmt*):
 
 ```
 xqhtools convert_csv path_storage ..\storage\AUDCAD path_csv ..\csv\AUDCAD1.csv -cetgmt -ohlc -c
 ```
 
-Преобразовать qhs4 файл обратно в csv файл для MetaTrader4 с преобразованием GMT времени в CET (флаг *-gmtcet*) и пропуском плохих баров (*-sbc*)
+Преобразовать qhs4 файл обратно в csv файл для MetaTrader4 (флаг *-m4*) с преобразованием GMT времени в CET (флаг *-gmtcet*) и пропуском плохих баров (*-sbc*)
 
 ```
 xqhtools convert_storage path_storage ..\storage\AUDCAD.qhs4 path_csv ..\csv\AUDCAD1.csv -gmtcet -m4 -sbc
